@@ -10,5 +10,12 @@ public class MyArray_1 {
             arr[i] = i;
             System.out.println("arr[" + i + "] = " + arr[i]);
         }
+
+        int [] nums = new int[4];
+        nums[0] = 5;
+        nums[1] = 10;
+        nums[2] = 15;
+        nums[3] = 25;
+        System.out.println(nums[0]);
     }
 }
