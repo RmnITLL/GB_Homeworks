@@ -16,6 +16,9 @@ public class MyArray_1 {
         nums[1] = 10;
         nums[2] = 15;
         nums[3] = 25;
-        System.out.println(nums[0]);
+
+        for (int ut : nums) {
+            System.out.print(ut + " ");
+        }
     }
 }
